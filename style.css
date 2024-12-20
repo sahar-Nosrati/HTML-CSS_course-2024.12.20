@@ -1,0 +1,9 @@
+body {
+  background-image: url(./img/dark-red-rose.jpg);
+}
+
+h1,
+h2,
+h3 {
+  color: blueviolet;
+}

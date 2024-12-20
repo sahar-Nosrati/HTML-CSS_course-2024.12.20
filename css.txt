@@ -1,0 +1,16 @@
+- CSS -> Cascading Style Sheets
+- CSS describes how HTML elements are to be displayed on screen
+- WWW (World Wide Web): This refers to the system of interlinked web pages and resources accessible via the internet. It’s the actual platform we use for browsing websites, sharing information, and accessing services online.
+- W3C (World Wide Web Consortium): This is an organization that develops the technical standards and guidelines (like HTML, CSS, and accessibility protocols) to make the WWW functional, accessible, and standardized.
+- A CSS rule consists of a selector and a declaration block.
+- A CSS selector selects the HTML element(s) you want to style.
+
+- css selectors ->
+  - Simple selectors (select elements based on name, id, class)
+  - Combinator selectors (select elements based on a specific relationship between them)
+  - Pseudo-class selectors (select elements based on a certain state)
+  - Pseudo-elements selectors (select and style a part of an element)
+  - Attribute selectors (select elements based on an attribute or attribute value)
+
+  // continue from The CSS id Selector
+

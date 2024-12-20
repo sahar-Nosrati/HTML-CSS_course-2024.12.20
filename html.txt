@@ -1,0 +1,48 @@
+- html -> Hyper text markup language 
+- HTML -> General content (structure of web page) in static web page 
+- <link rel="stylesheet" href=""> -> connection between external CSS  and HTML
+- <script src=""></script> ->
+  - Include in the <head>
+  - Include before the closing </body>
+    - point -> Async and Defer Attributes (Optional): You can use async or defer attributes for more control over script execution:
+      - async: Loads the script asynchronously and executes it as soon as it's available.
+      - defer: Loads the script asynchronously but delays execution until the entire HTML document is parsed.
+
+- HTML documents -> should be started with doc type declaration -> <!DOCTYPE html>.
+- HTML headline -> h1-h6 -> web should have only one main headline (h1)
+- Attributes are used to provide additional information about HTML elements.
+- <p> </p> -> paragraph 
+- <a></a> -> link (except link between style.css and html )
+  - <a href="https://www.w3schools.com">This is a link</a>
+- HTML images are defined with the <img> tag.
+  - <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+- access to HTML source of web page -> CTRL + U 
+- HTML element -> An HTML element is defined by a start tag, some content, and an end tag.
+- Note: Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+- HTML elements can be nested (this means that elements can contain other elements) -> example ->
+  - <html>, <body>, <h1> and <p>
+
+- important -> The <html> element is the root element and it defines the whole HTML document.
+- HTML tags are not case sensitive: <P> means the same as <p>. 
+
+- Extensible HyperText Markup Language (XHTML) is part of the family of XML markup languages which mirrors or extends versions of the widely used HyperText Markup Language (HTML), the language in which Web pages are formulated. XHTML. Filename extension. .xhtml, .xht, .xml, .html, .htm
+
+- Attributes are always specified in the start tag
+- Attributes usually come in name/value pairs like: name="value"
+- The src attribute specifies the path to the image to be displayed
+
+- here are two ways to specify the URL in the src attribute: 
+  - Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+  - 2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page.
+
+- alt attribute -> The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.
+
+- style attribute -> The style attribute ca add style to HTML element -> font , color, size, etc -> example ->
+  - <p style="color:red;">This is a red paragraph.</p>
+  
+- lang attribute -> You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+
+// next study -> HTML Headings
+
+continue after finish cypress and k6
